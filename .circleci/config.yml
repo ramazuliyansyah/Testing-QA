@@ -2,7 +2,6 @@ version: 2.1
 
 # Define the jobs we want to run for this project
 jobs:
-  jobs:
     deploy-job:
       steps:
         - add_ssh_keys:
