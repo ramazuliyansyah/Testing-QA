@@ -6,7 +6,7 @@ jobs:
       steps:
         - add_ssh_keys:
             fingerprints:
-              - f1:92:66:bf:3b:b2:9e:04:f9:45:3d:20:2a:35:03:80
+              - "f1:92:66:bf:3b:b2:9e:04:f9:45:3d:20:2a:35:03:80"
   build:
     docker:
       - image: cimg/base:2023.03
