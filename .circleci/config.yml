@@ -2,11 +2,6 @@ version: 2.1
 
 # Define the jobs we want to run for this project
 jobs:
-    deploy-job:
-      steps:
-        - add_ssh_keys:
-            fingerprints:
-              - GIvf7pnlGyQZlP17Puk1gNvd0yhXnmMSGQ5crRPZbWo rama.zuliansyah@gmail.com
   build:
     docker:
       - image: cimg/base:2023.03
