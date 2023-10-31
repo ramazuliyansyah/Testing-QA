@@ -7,7 +7,7 @@ jobs:
       steps:
         - add_ssh_keys:
             fingerprints:
-              - "GIvf7pnlGyQZlP17Puk1gNvd0yhXnmMSGQ5crRPZbWo rama.zuliansyah@gmail.com"
+              - GIvf7pnlGyQZlP17Puk1gNvd0yhXnmMSGQ5crRPZbWo rama.zuliansyah@gmail.com
   build:
     docker:
       - image: cimg/base:2023.03
