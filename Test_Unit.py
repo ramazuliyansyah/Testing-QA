@@ -8,7 +8,7 @@ import unittest
 class TestTambah(unittest.TestCase):
 
     def test_tambah_positif(self):
-        self.assertEqual(tambah(2, 3), 5)
+        self.assertEqual(tambah(2, 3), 10)
 
     def test_tambah_negatif(self):
         self.assertEqual(tambah(-2, -3), -5)
