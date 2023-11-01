@@ -7,13 +7,13 @@ jobs:
       - image: cimg/base:2023.03
     steps:
       - checkout
-      - run: echo "this is the build job"
+      - run: echo "Build job berhasil dijalankan"
   test:
     docker:
       - image: cimg/base:2023.03
     steps:
       - checkout
-      - run: echo "this is the test job"
+      - run: echo "Test job berhasil dijalankan"
 
 # Orchestrate our job run sequence
 workflows:
