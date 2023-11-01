@@ -17,5 +17,5 @@ class TestTambah(unittest.TestCase):
         self.assertEqual(tambah(-2, 3), 1)
         self.assertEqual(tambah(2, -3), -1)
 
-if __name__ == '__main__':
+ __name__ == '__main__':
     unittest.main()
