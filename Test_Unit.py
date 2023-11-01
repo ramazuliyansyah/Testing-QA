@@ -16,6 +16,3 @@ class TestTambah(unittest.TestCase):
     def test_tambah_campuran(self):
         self.assertEqual(tambah(-2, 3), 1)
         self.assertEqual(tambah(2, -3), -1)
-
-if __name__ = '__main__':
-    unittest.main()
