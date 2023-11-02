@@ -14,7 +14,7 @@ jobs:
     steps:
       - checkout
       - run: echo "Test job berhasil dijalankan"
-  deploy-job:
+  deploy:
     docker:
       - image: cimg/base:2023.03
     steps:
@@ -27,6 +27,6 @@ workflows:
     jobs:
       - build
       - test
-  deploy-job:
+  deploy:
     jobs:
       - deploy
