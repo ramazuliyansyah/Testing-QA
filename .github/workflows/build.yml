@@ -26,4 +26,4 @@ jobs:
       - name: Run pytest
         run: pytest
       - name: Run pytest cov
-        run: pytest --cov=app
+        run: pytest --cov=
