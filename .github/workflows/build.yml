@@ -20,6 +20,10 @@ jobs:
           cache: pip
           python-version: "3.9"
       - name: Install requirements
-        run: pip install -r requirements.txt
-      - name: Run ruff
-        run: ruff .
+        run: |
+          pip install -r requirements.txt
+          pip install pytest pytest-cov
+      - name: Run pytest
+        run: pytest
+      - name: Run pytest cov
+        run: pytest --cov=app
